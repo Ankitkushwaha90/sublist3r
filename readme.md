@@ -9,5 +9,5 @@ apt install sublist3r
 sublist3r -d yahoo.com
 ```
 ```bash
-sublist3r -d yahoo.com
+ffuf -w /usr/share/wordlists/dirb/small.txt -u https://www.yahoo.com/FUZZ
 ```
