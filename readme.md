@@ -11,6 +11,9 @@ sublist3r -d yahoo.com
 ```bash
 ffuf -w /usr/share/wordlists/dirb/small.txt -u https://www.yahoo.com/FUZZ
 ```
+```bash
+ffuf -w /usr/share/wordlists/dirb/small.txt -u https://www.yahoo.com/FUZZ -fl 1
+```
 
 
 
