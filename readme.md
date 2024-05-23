@@ -8,3 +8,6 @@ apt install sublist3r
 ```bash
 sublist3r -d yahoo.com
 ```
+```bash
+sublist3r -d yahoo.com
+```
